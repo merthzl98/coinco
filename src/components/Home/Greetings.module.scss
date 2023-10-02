@@ -1,0 +1,54 @@
+$gradient-color-1: #2600fc;
+$gradient-color-2: #ff00ea;
+
+.typo {
+  color: #1a1313;
+  font-weight: 600 !important;
+  background: -webkit-linear-gradient(
+    left,
+    $gradient-color-1,
+    $gradient-color-2,
+    $gradient-color-1
+  );
+  background-size: 1600px 200px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-duration: 2s;
+  animation-name: animationgradienttitle;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+.bitcoin {
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  animation: move 2s infinite;
+}
+
+.ethereum {
+  position: absolute;
+  z-index: -2;
+  top: 2rem;
+  right: 0;
+  animation: move 2s infinite;
+}
+
+@keyframes animationgradienttitle {
+  0% {
+    background-position: 0 1600px;
+  }
+  100% {
+    background-position: 1600px 0;
+  }
+}
+
+@keyframes move {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(2rem);
+  }
+}
