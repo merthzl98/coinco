@@ -1,43 +1,17 @@
-# Material UI - Next.js App Router example in TypeScript
+<h2>About the project</h2>
+<p>CoinCo is a crypto app that allows users to search for information about various cryptocurrencies in real-time. The latest crypto news can also be accessed by users.</p>
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with Material UI installed.
+👉 Live Demo: still being worked on...
 
-## How to use
+<h3>Build with:</h3>
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
+» Next.js <br>
+» TypeScript <br>
+» MUI <br>
+» Coin Gecko APIs 
 
-<!-- #default-branch-switch -->
+<h2>Screenshots of the Project 📸</h2>
+<br>
 
-```bash
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/material-ui-nextjs-ts
-cd material-ui-nextjs-ts
-```
 
-Install dependencies and run:
 
-```bash
-# npm
-npm install
-npm run dev
-
-# yarn
-yarn
-yarn dev
-
-# pnpm
-pnpm install
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
-
-This example uses [`next/font/google`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts#google-fonts) to automatically optimize and load Roboto, a custom Google Font.
-
-## Learn more
-
-To learn more about this example:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Customizing Material UI](https://mui.com/material-ui/customization/how-to-customize/) - approaches to customizing Material UI.
